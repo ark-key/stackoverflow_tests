@@ -10,5 +10,5 @@ jobs:
     steps:
       - name: Debug echo
         run: |
-          filename="MY_FILE.TXT"
+          filename="data/Sales.csv"
           echo "::error::Filename $filename doesn't match possible files" && exit 1
