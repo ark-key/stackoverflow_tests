@@ -10,4 +10,4 @@ jobs:
     steps:
       - name: Debug echo
         run: |
-          echo "::error file=data/Sales.csv,line=1,col=5,endColumn=7,title=YOUR-TITLE::Missing semicolon" && exit 1
+          echo "::error file=./data/Sales.csv,line=1,col=1,endColumn=2,title=YOUR-TITLE::Missing semicolon" && exit 1
