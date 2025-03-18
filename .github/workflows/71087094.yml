@@ -1,7 +1,6 @@
 name: Test 71087094
 
-on:
-  workflow_dispatch:
+on: push
 
 jobs:
   debug:
